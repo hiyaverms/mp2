@@ -1,5 +1,5 @@
 import styled from 'styled-components';
-import { DogBreed } from '../../App';
+import type { DogBreed } from '../../App';
 
 const GridContainer = styled.div`
     display: flex;
