@@ -7,31 +7,40 @@ const GridContainer = styled.div`
     justify-content: center;
     gap: 20px;
     padding: 20px;
-    background-color: #fafafa;
+    background-color: #f8f9fa;
 `;
 
 const BreedCard = styled.div`
-    border: 2px solid #333;
+    border: 2px solid #0a2647;
     border-radius: 15px;
     padding: 20px;
     width: 300px;
     background-color: white;
-    box-shadow: 5px 5px 15px rgba(0,0,0,0.1);
+    box-shadow: 0 4px 6px rgba(10, 38, 71, 0.1);
     transition: transform 0.2s;
+    font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
 
     &:hover {
         transform: scale(1.02);
+        box-shadow: 0 10px 20px rgba(162, 210, 255, 0.4);
     }
 `;
 
 const BreedName = styled.h2`
-    color: #d35400;
+    color: #0a2647;
     margin-top: 0;
+    font-weight: 700;
+    border-bottom: 3px solid #a2d2ff;
+    padding-bottom: 8px;
 `;
 
 const InfoText = styled.p`
-    font-family: 'Arial', sans-serif;
-    line-height: 1.4;
+    color: #333;
+    line-height: 1.6;
+    font-size: 0.95rem;
+    strong {
+        color: #0a2647; 
+    }
 `;
 
 interface Props {
