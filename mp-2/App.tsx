@@ -1,5 +1,5 @@
 import { useState, useEffect } from 'react';
-import DogDisplay from './components/Something';
+import DogDisplay from './src/components/Something';
 
 export interface DogBreed {
     id: string;
